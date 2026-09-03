@@ -29,7 +29,7 @@ wizz
 <위탁 수하물>
 20kg checked ok
 
-1/1 서울->바르셀로나 11:30->18:30 아시아나 110만원 *4만원
+1/1 아시아나 서울 12:00-BCN 18:55 OZ511
 공항에서 숙소까지 택시타고 30분. 50유로 정도 필요.
 바르셀로나 숙소: 하루 40만원.
 https://www.agoda.com/ko-kr/aparthotel-atenea-barcelona_5/hotel/barcelona-es.html?countryId=167&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-1&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=9&los=2&searchrequestid=11645c8b-2db5-4e24-b1a6-e96547fe841b&ds=jif%2Bth7LwhYjIER8
@@ -50,7 +50,7 @@ https://maps.app.goo.gl/rFexh18BCHHsigFC6
 포지타노 -> 살레르노로. 2시간 정도 소요.
 기차 살레르노 -> 로마 19:50->21:20 이동
 로마 숙소 :
-https://www.agoda.com/ko-kr/hotel-baltico-h13823587/hotel/rome-it.html?countryId=205&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-4&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=9&los=4&searchrequestid=3334c607-9e42-4708-a2ff-69c120849311&ds=CmK0lDR4dvn8psjt
+https://www.agoda.com/ko-kr/the-romehello/hotel/rome-it.html?countryId=205&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-4&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=2%2C8&los=4&searchrequestid=ae63f3d7-94e4-4110-9de4-ca64dbb24d6d&ds=M4eHKsN1pNZw1XuF
 1/5
 바티칸 - 성베드로 성당/ 시스티야 성당 / 바티칸 박물관 관람 아침 6시 기상
 1/6
@@ -69,7 +69,7 @@ https://www.agoda.com/ko-kr/aparthotel-adagio-paris-tour-eiffel/hotel/paris-fr.h
 
 https://www.agoda.com/ko-kr/amazing-superior-apartment-near-champ-de-mars-eiffel-tower/hotel/paris-fr.html?countryId=153&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-8&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&flightSearchCriteria=%5Bobject+Object%5D&los=4&searchrequestid=064c050a-aca4-4942-abbb-edb083c62c2b&ds=CmK0lDR4dvn8psjt
 1/12
-파리 -> 서울 11:20 도착 루프트 한자 70만원. 1회 경유
+루프트한자 파리 12:05-서울 11:15(다음날)
 
 약 1박에 40 예상
 
