@@ -16,8 +16,8 @@
 
     --barcelona-bg: hsl(14, 65%, 90%);
     --barcelona-text: hsl(14, 60%, 32%);
-    --salerno-bg: hsl(175, 45%, 87%);
-    --salerno-text: hsl(175, 50%, 25%);
+    --florence-bg: hsl(175, 45%, 87%);
+    --florence-text: hsl(175, 50%, 25%);
     --rome-bg: hsl(38, 60%, 87%);
     --rome-text: hsl(30, 55%, 30%);
     --paris-bg: hsl(212, 55%, 90%);
@@ -33,8 +33,8 @@
 
     --barcelona-bg: hsl(14, 40%, 24%);
     --barcelona-text: hsl(14, 70%, 80%);
-    --salerno-bg: hsl(175, 30%, 20%);
-    --salerno-text: hsl(175, 55%, 75%);
+    --florence-bg: hsl(175, 30%, 20%);
+    --florence-text: hsl(175, 55%, 75%);
     --rome-bg: hsl(38, 35%, 24%);
     --rome-text: hsl(40, 65%, 78%);
     --paris-bg: hsl(212, 35%, 24%);
@@ -51,8 +51,8 @@
 
       --barcelona-bg: hsl(14, 40%, 24%);
       --barcelona-text: hsl(14, 70%, 80%);
-      --salerno-bg: hsl(175, 30%, 20%);
-      --salerno-text: hsl(175, 55%, 75%);
+      --florence-bg: hsl(175, 30%, 20%);
+      --florence-text: hsl(175, 55%, 75%);
       --rome-bg: hsl(38, 35%, 24%);
       --rome-text: hsl(40, 65%, 78%);
       --paris-bg: hsl(212, 35%, 24%);
@@ -169,11 +169,11 @@
   }
 
   .cell.barcelona { background: var(--barcelona-bg); color: var(--barcelona-text); }
-  .cell.salerno   { background: var(--salerno-bg);   color: var(--salerno-text); }
+  .cell.florence  { background: var(--florence-bg);  color: var(--florence-text); }
   .cell.rome      { background: var(--rome-bg);      color: var(--rome-text); }
   .cell.paris     { background: var(--paris-bg);     color: var(--paris-text); }
   .cell.barcelona .date-num,
-  .cell.salerno .date-num,
+  .cell.florence .date-num,
   .cell.rome .date-num,
   .cell.paris .date-num { color: inherit; }
 
@@ -218,7 +218,7 @@
   tr:last-child td { border-bottom: none; }
   tr td:first-child { border-left: 4px solid transparent; }
   tr.barcelona td:first-child { border-left-color: var(--barcelona-text); }
-  tr.salerno td:first-child { border-left-color: var(--salerno-text); }
+  tr.florence td:first-child { border-left-color: var(--florence-text); }
   tr.rome td:first-child { border-left-color: var(--rome-text); }
   tr.paris td:first-child { border-left-color: var(--paris-text); }
 
@@ -268,7 +268,7 @@
     display: flex; flex-direction: column; justify-content: center; gap: 1px;
   }
   .hg-head.barcelona { background: var(--barcelona-bg); color: var(--barcelona-text); }
-  .hg-head.salerno   { background: var(--salerno-bg);   color: var(--salerno-text); }
+  .hg-head.florence  { background: var(--florence-bg);  color: var(--florence-text); }
   .hg-head.rome      { background: var(--rome-bg);      color: var(--rome-text); }
   .hg-head.paris     { background: var(--paris-bg);     color: var(--paris-text); }
   .hg-head .d { font-weight: 700; font-size: 0.86rem; }
@@ -297,7 +297,7 @@
     position: relative;
   }
   .hg-block.barcelona { border-left-color: var(--barcelona-text); }
-  .hg-block.salerno   { border-left-color: var(--salerno-text); }
+  .hg-block.florence  { border-left-color: var(--florence-text); }
   .hg-block.rome      { border-left-color: var(--rome-text); }
   .hg-block.paris     { border-left-color: var(--paris-text); }
   .hg-block .tag {
@@ -338,7 +338,7 @@
     border-radius: 999px;
   }
   .gallery-day h3 .g-city.barcelona { background: var(--barcelona-bg); color: var(--barcelona-text); }
-  .gallery-day h3 .g-city.salerno   { background: var(--salerno-bg);   color: var(--salerno-text); }
+  .gallery-day h3 .g-city.florence  { background: var(--florence-bg);  color: var(--florence-text); }
   .gallery-day h3 .g-city.rome      { background: var(--rome-bg);      color: var(--rome-text); }
   .gallery-day h3 .g-city.paris     { background: var(--paris-bg);     color: var(--paris-text); }
   .gallery-grid {
@@ -395,11 +395,11 @@
 <body>
 <div class="wrap">
   <h1>2027년 1월 가족여행 일정</h1>
-  <p class="subtitle">2027-01-01(금) 인천 출발 · 바르셀로나 → 살레르노(아말피·포지타노) → 로마 → 파리 · 2027-01-12(화) 인천 귀국 · 11박 12일</p>
+  <p class="subtitle">2027-01-01(금) 인천 출발 · 바르셀로나 → 피렌체 → 로마 → 파리 · 2027-01-12(화) 인천 귀국 · 11박 12일</p>
 
   <div class="legend">
     <div class="legend-item"><span class="swatch" style="background: var(--barcelona-bg);"></span>바르셀로나</div>
-    <div class="legend-item"><span class="swatch" style="background: var(--salerno-bg);"></span>살레르노</div>
+    <div class="legend-item"><span class="swatch" style="background: var(--florence-bg);"></span>피렌체</div>
     <div class="legend-item"><span class="swatch" style="background: var(--rome-bg);"></span>로마</div>
     <div class="legend-item"><span class="swatch" style="background: var(--paris-bg);"></span>파리</div>
   </div>
@@ -425,8 +425,8 @@
       <div class="cell barcelona trip"><div class="date-num">2</div><div class="day-badge">Day 2</div><div class="city-label">사그라다 파밀리아</div></div>
 
       <!-- Week 2 -->
-      <div class="cell salerno trip"><div class="date-num">3</div><div class="day-badge">Day 3</div><div class="city-label">→ 살레르노 이동</div></div>
-      <div class="cell salerno trip"><div class="date-num">4</div><div class="day-badge">Day 4</div><div class="city-label">신들의 길 → 로마</div></div>
+      <div class="cell florence trip"><div class="date-num">3</div><div class="day-badge">Day 3</div><div class="city-label">→ 피렌체 이동</div></div>
+      <div class="cell florence trip"><div class="date-num">4</div><div class="day-badge">Day 4</div><div class="city-label">피렌체 → 로마</div></div>
       <div class="cell rome trip"><div class="date-num">5</div><div class="day-badge">Day 5</div><div class="city-label">바티칸</div></div>
       <div class="cell rome trip"><div class="date-num">6</div><div class="day-badge">Day 6</div><div class="city-label">트레비·콜로세움</div></div>
       <div class="cell rome trip"><div class="date-num">7</div><div class="day-badge">Day 7</div><div class="city-label">판테온·포로로마노</div></div>
@@ -486,13 +486,13 @@
           <td>01-02 (토)</td><td>Day 2</td><td>바르셀로나</td>
           <td class="wrap-cell">사그라다 파밀리아 + 고딕지구·람블라스</td><td>바르셀로나</td><td class="wrap-cell">⚠ 국제미사(일요일 9시 한정)는 이 날짜엔 해당 없음 — 토요일 일반 관람으로 진행</td>
         </tr>
-        <tr class="salerno">
-          <td>01-03 (일)</td><td>Day 3</td><td>바르셀로나 → 살레르노</td>
-          <td class="wrap-cell">구엘공원 등 관광 후 나폴리行 항공(easyjet 12:00→14:00), 살레르노 이동</td><td>살레르노</td><td class="wrap-cell">easyjet 위탁수하물 별도구매 필요 (아래 수하물 규정 참고)</td>
+        <tr class="florence">
+          <td>01-03 (일)</td><td>Day 3</td><td>바르셀로나 → 피렌체</td>
+          <td class="wrap-cell">오전 바르셀로나 추가관광(구엘공원 등) 후 항공(Vueling 직항 12:25→14:15), 오후 피렌체 도착 후 두오모 광장·베키오 다리 야경 산책</td><td>피렌체</td><td class="wrap-cell">Vueling 직항 약 1시간 50분, 위탁수하물 요금제 확인 필요 (아래 수하물 규정 참고)</td>
         </tr>
-        <tr class="salerno">
-          <td>01-04 (월)</td><td>Day 4</td><td>살레르노(아말피·포지타노) → 로마</td>
-          <td class="wrap-cell">신들의 길 하이킹(보메라노~노첼라~포지타노) 후 기차로 로마 이동</td><td>로마</td><td class="wrap-cell">겨울 페리 미운항 확정(4~10월만 운항), SITA버스 필수</td>
+        <tr class="florence">
+          <td>01-04 (월)</td><td>Day 4</td><td>피렌체 → 로마</td>
+          <td class="wrap-cell">우피치 미술관·두오모 쿠폴라·미켈란젤로 광장 등 종일 관광 후 기차로 로마 이동</td><td>로마</td><td class="wrap-cell">Frecciarossa 고속열차 약 1시간 40분(19:20→21:00 예상), 사전 예매 권장</td>
         </tr>
         <tr class="rome">
           <td>01-05 (화)</td><td>Day 5</td><td>로마</td>
@@ -539,9 +539,9 @@
           <td>바르셀로나</td><td>2박 (1/1~1/2)</td>
           <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/aparthotel-atenea-barcelona_5/hotel/barcelona-es.html" target="_blank" rel="noopener">Aparthotel Atenea Barcelona</a> (하루 약 40만원)</td>
         </tr>
-        <tr class="salerno">
-          <td>살레르노</td><td>1박 (1/3) — 1/4 하이킹 후 당일 로마 이동</td>
-          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/grand-hotel-salerno/hotel/salerno-it.html" target="_blank" rel="noopener">Grand Hotel Salerno</a> (하루 약 30만원)</td>
+        <tr class="florence">
+          <td>피렌체</td><td>1박 (1/3) — 1/4 종일 관광 후 저녁에 로마 이동</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/hotel-city/hotel/florence-it.html" target="_blank" rel="noopener">Hotel City</a> (하루 약 25~30만원, 후보)</td>
         </tr>
         <tr class="rome">
           <td>로마</td><td>4박 (1/4~1/7)</td>
@@ -564,12 +564,12 @@
     <h2 style="margin-top:0;">TODO</h2>
     <ul>
       <li>인천 → 바르셀로나 항공권 예약 (직항 없음, 경유편 비교, 중동 경유 항공사 제외). 검토 중: 아시아나 11:30→18:30 110만원대</li>
-      <li>바르셀로나 → 나폴리 항공권 예약 (easyjet 12:00→14:00) 및 위탁수하물 별도구매 (기본 미포함, 최대 3개까지 구매 가능)</li>
+      <li>바르셀로나 → 피렌체 항공권 예약 (Vueling 직항, 약 1시간 50분) 및 요금제별 위탁수하물 포함 여부 확인</li>
       <li>로마 → 파리 항공권 예약 (transavia 10:30→12:40) 및 위탁수하물 규정 확인</li>
       <li>파리 → 인천 귀국 항공권 예약 (1/12). 후보: 직항 3사 vs 루프트한자 경유(70만원대) 가격 비교</li>
-      <li style="text-decoration:line-through;">살레르노-아말피-포지타노 겨울 페리 시간표 확인 → 미운항 확정(4~10월 시즌 한정), SITA버스가 유일한 대안</li>
-      <li>신들의 길 하이킹 코스 확인(보메라노 출발, 노첼라 하산) 및 날씨 체크</li>
-      <li>도시별 숙소 예약 (바르셀로나 2박 / 살레르노 1박 / 로마 4박 / 파리 4박)</li>
+      <li>피렌체 → 로마 Frecciarossa 기차 시간표 확정 및 예매 (저녁 시간대, 약 1시간 40분)</li>
+      <li>피렌체 관광 코스 확정(우피치 미술관 예약, 두오모 쿠폴라 등반권, 미켈란젤로 광장 일몰 시간 체크)</li>
+      <li>도시별 숙소 예약 (바르셀로나 2박 / 피렌체 1박 / 로마 4박 / 파리 4박)</li>
       <li>주요 명소 사전 예약 (바티칸 박물관, 콜로세움, 사그라다 파밀리아 등)</li>
       <li style="text-decoration:line-through;">일정 전체 하루씩 당김(1/1~1/12) 반영, Day5(화)·Day6(수) 순서 교체로 바티칸 주현절 휴관 회피 완료</li>
       <li style="text-decoration:line-through;">베르사유 월요일 휴관 확인 → Day10(일) 베르사유, Day11(월) 루브르로 교체해 회피 완료</li>
@@ -612,13 +612,13 @@
     <table>
       <thead><tr><th>항공사</th><th>구간</th><th>기내 수하물</th><th>큰 기내 수하물</th><th>위탁 수하물</th></tr></thead>
       <tbody>
-        <tr><td>easyjet</td><td class="wrap-cell">1/3 바르셀로나→나폴리</td><td>45×36×20cm, 무료</td><td>56×45×25cm, 15kg</td><td class="wrap-cell">23kg, 3면 합 275cm 이하 (별도구매, 최대 3개)</td></tr>
+        <tr><td>Vueling</td><td class="wrap-cell">1/3 바르셀로나→피렌체</td><td>40×30×20cm, 무료(1인 1개)</td><td>55×40×20cm, 10kg (요금제별)</td><td class="wrap-cell">15~30kg, 3면 합 158cm 이하 (요금제별 포함/별도구매)</td></tr>
         <tr><td>transavia</td><td class="wrap-cell">1/8 로마→파리</td><td>40×30×20cm, 무료</td><td>55×40×25cm, 10kg</td><td class="wrap-cell">3면 합 165cm, 20kg (1인 최대 32kg, 총 50kg)</td></tr>
         <tr><td>wizz (예비 후보)</td><td>-</td><td>40×30×20cm, 무료</td><td>55×40×23cm, 10kg</td><td>20kg</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="note">28인치 캐리어(3면 합 156cm)는 easyjet(275cm)·transavia(165cm) 규정 모두 통과 — 무게만 20kg 이내로 맞추면 됨. easyjet은 위탁수하물이 기본 요금 미포함이라 예약 시 반드시 추가 구매할 것. 인천↔바르셀로나·파리↔인천 구간은 풀서비스 항공사 기준이라 별개(위 23kg 위탁수하물 문단 참고).</p>
+  <p class="note">28인치 캐리어(3면 합 156cm)는 Vueling(158cm)·transavia(165cm) 규정 모두 통과 — 무게만 20kg 이내로 맞추면 됨. Vueling은 최저가 요금제일수록 위탁수하물이 기본 요금에서 빠지는 경우가 많으니 예약 시 요금제 확인할 것. 인천↔바르셀로나·파리↔인천 구간은 풀서비스 항공사 기준이라 별개(위 23kg 위탁수하물 문단 참고).</p>
 
   <h2>예상 경비</h2>
   <p class="subtitle" style="margin-bottom:14px;">2026-09-01 메모 기준, 4인 가족. 항공권·숙소 미확정이라 변동 가능</p>
@@ -684,29 +684,28 @@
       [19,2,"식사","저녁식사"],
       [21,3,"자유","자유/휴식"]
     ]],
-    ["1/3","일","salerno","Day3 · 바르셀로나→살레르노",[
+    ["1/3","일","florence","Day3 · 바르셀로나→피렌체",[
       [6,2,"취침","기상/조식/짐정리"],
       [8,2,"관광","바르셀로나 추가관광(구엘공원 등)"],
       [10,1,"이동","체크아웃/공항 이동"],
       [11,1,"이동","공항 수속·수하물 위탁",1],
-      [12,2,"이동","바르셀로나 12:00 출발 → 나폴리 14:00 도착 (easyjet)"],
-      [14,3,"관광","나폴리 도착 후 짐 보관, 관광(피자집·해안 등) 14:30~17:00"],
-      [17,1,"이동","나폴리→살레르노 기차 이동"],
-      [18,1,"취침","살레르노 숙소 체크인"],
+      [12,2,"이동","바르셀로나 12:25 출발 → 피렌체 14:15 도착 (Vueling 직항)"],
+      [14,1,"이동","피렌체 공항 도착, 숙소로 이동"],
+      [15,2,"이동","숙소 체크인/짐정리"],
+      [17,2,"관광","두오모 광장·베키오 다리 야경 산책"],
       [19,2,"식사","저녁식사"],
       [21,3,"취침","취침"]
     ]],
-    ["1/4","월","salerno","Day4 · 신들의 길→로마",[
-      [6,1,"이동","기상/체크아웃/짐 보관"],
-      [7,1,"이동","살레르노→아말피 (페리 미운항, SITA버스로 대체)",1],
-      [8,1,"관광","아말피 잠깐 관광"],
-      [9,1,"이동","SITA버스로 보메라노 이동"],
-      [10,4,"관광","신들의 길 하이킹 (약 8km)"],
-      [14,1,"이동","노첼라→포지타노 하산"],
-      [15,1,"식사","포지타노 관광/늦은 점심"],
-      [16,1,"이동","포지타노→살레르노 (일몰 전 이동)",1],
-      [17,1,"이동","살레르노 도착/짐 수령"],
-      [18,3,"이동","로마行 기차 이동 (약 2.5~3h)"],
+    ["1/4","월","florence","Day4 · 피렌체→로마",[
+      [6,2,"취침","기상/조식"],
+      [8,1,"이동","체크아웃/짐 보관"],
+      [9,3,"관광","우피치 미술관 관람",1],
+      [12,1,"식사","점심"],
+      [13,2,"관광","두오모 쿠폴라 등반·대성당 관람"],
+      [15,2,"관광","베키오 다리·피티 궁전 인근 산책"],
+      [17,1,"관광","미켈란젤로 광장 일몰"],
+      [18,1,"이동","숙소 짐 수령/역으로 이동"],
+      [19,2,"이동","피렌체 19:20 출발 → 로마 21:00 도착 (Frecciarossa)",1],
       [21,3,"취침","로마 도착/체크인/취침"]
     ]],
     ["1/5","화","rome","Day5 · 바티칸",[
@@ -844,8 +843,8 @@
   var GALLERY_DAYS = [
     ["day01-barcelona", "Day 1", "1/1 (금)", "barcelona", "바르셀로나"],
     ["day02-barcelona", "Day 2", "1/2 (토)", "barcelona", "바르셀로나"],
-    ["day03-salerno",   "Day 3", "1/3 (일)", "salerno",   "살레르노"],
-    ["day04-salerno",   "Day 4", "1/4 (월)", "salerno",   "살레르노"],
+    ["day03-florence",  "Day 3", "1/3 (일)", "florence",  "피렌체"],
+    ["day04-florence",  "Day 4", "1/4 (월)", "florence",  "피렌체"],
     ["day05-rome",      "Day 5", "1/5 (화)", "rome",      "로마"],
     ["day06-rome",      "Day 6", "1/6 (수)", "rome",      "로마"],
     ["day07-rome",      "Day 7", "1/7 (목)", "rome",      "로마"],
@@ -860,8 +859,8 @@
   var PHOTOS = {
     "day01-barcelona": ["barcelona hotel.png", "how to go hotel from BCN airport.png"],
     "day02-barcelona": ["casabat.jpg", "from hotel to sagrada.png", "sagrada.jpg", "guel.jpg", "ramblas.jpg", "department ingles.jpg"],
-    "day03-salerno": ["nap airport to nap cenral station.png", "napoli pizza.jpg", "delobo.jpg", "naples to salerno.png", "salerno.jpg"],
-    "day04-salerno": ["salerno to amalfi.png", "amalfi to bomerano.png", "path of god.png", "positano to salerno.png", "salerno to rome.png"],
+    "day03-florence": [],
+    "day04-florence": [],
     "day05-rome": ["vatican.jpg", "vatican museum.jpg", "sistia.jpg"],
     "day06-rome": ["coloseum.jpg", "trevi.jpg", "square.jpg", "pantheon.jpg"],
     "day07-rome": [],

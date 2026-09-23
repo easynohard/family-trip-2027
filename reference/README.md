@@ -7,7 +7,7 @@ reference/
   barcelona/
     accommodation/   ← 숙소 사진 + links.md(예약 링크·가격·메모)
     tours/            ← 투어/액티비티/명소 사전조사 자료
-  salerno/...
+  florence/...
   rome/...
   paris/...
 ```
@@ -17,7 +17,7 @@ reference/
 **1. 언제 만들어진 자료인가 — 이게 가장 중요한 기준**
 - 예약을 결정하려고 여행 "전에" 모은 자료(숙소 매물 사진, 예약 사이트 캡처, 가격 비교, 투어 상품 정보) → `reference/`
 - 여행 "중에" 실제로 그 장소에 있으면서 찍은 사진 → `photos/dayXX-city/` (자세한 규칙은 `../photos/README.md` 참고)
-- 예: 예약 전 Agoda에서 저장한 호텔 로비 사진은 `reference/rome/accommodation/`. 체크인해서 내가 직접 찍은 로비 사진은 `photos/day04-salerno/`처럼 해당 Day 폴더.
+- 예: 예약 전 Agoda에서 저장한 호텔 로비 사진은 `reference/rome/accommodation/`. 체크인해서 내가 직접 찍은 로비 사진은 `photos/day04-florence/`처럼 해당 Day 폴더.
 
 **2. 숙소(accommodation) vs 투어(tours)**
 - `accommodation/`: 그 도시에서 묵을 숙소에 관한 모든 것 — 후보 숙소 사진, 확정 숙소 사진, 예약 확인서 캡처

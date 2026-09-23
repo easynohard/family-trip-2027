@@ -6,8 +6,8 @@ Day별 · 도시별로 폴더가 미리 만들어져 있습니다. (일정표의
 photos/
   day01-barcelona/   Day 1  인천 → 바르셀로나
   day02-barcelona/   Day 2  사그라다 파밀리아
-  day03-salerno/     Day 3  바르셀로나 → 살레르노
-  day04-salerno/     Day 4  신들의 길 → 로마
+  day03-florence/    Day 3  바르셀로나 → 피렌체
+  day04-florence/    Day 4  피렌체 → 로마
   day05-rome/        Day 5  트레비·콜로세움
   day06-rome/        Day 6  바티칸
   day07-rome/        Day 7  판테온·포로로마노

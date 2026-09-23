@@ -14,13 +14,13 @@ Maximum total weight: 50 kg per passenger.
 Maximum weight per piece of luggage: 32 kg.
 Maximum dimensions: 165 cm (total of length + width + height), including handles and wheels.
 
-easyjet (바르셀로나 -> 나폴리) -
-<기내 수하물 (max 45 x 36 x 20 cm)>
-<큰 기내 수하물(max 56 x 45 x 25 cm)>
-15kg
+Vueling (바르셀로나 -> 피렌체) -
+<기내 수하물 (무료, 1인 1개, max 40 x 30 x 20 cm)>
+<큰 기내 수하물(요금제별 포함/유료, max 55 x 40 x 20 cm)>
+10kg
 <위탁 수하물>
-23kg
-Maximum total size (length + width + height) = under 275cm
+15~30kg (요금제별)
+Maximum total size (length + width + height) = under 158cm
 
 wizz
 <기내 수하물 (max 40 x 30 x 20 cm)>
@@ -36,19 +36,14 @@ https://www.agoda.com/ko-kr/aparthotel-atenea-barcelona_5/hotel/barcelona-es.htm
 
 https://maps.app.goo.gl/rFexh18BCHHsigFC6
 
-1/3 바르셀로나 -> 나폴리 12:00 -> 14:00 easyjet 이용
-짐 맡기고 나폴리 투어(피자집, 해안 등)
-기차 나폴리 -> 살레르노 나폴리 보다가 살레르노 넘어가기
-살레르노 숙소 하루 30만원
-: https://www.agoda.com/ko-kr/grand-hotel-salerno/hotel/salerno-it.html?countryId=205&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2026-09-8&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&tspTypes=16&los=1&searchrequestid=1066bc62-6b15-423c-904f-ae94cd668eb2&ds=CmK0lDR4dvn8psjt
+1/3 바르셀로나 -> 피렌체 12:25 -> 14:15 Vueling 직항 이용 (약 1시간 50분)
+오전 바르셀로나 추가관광(구엘공원 등) 후 공항 이동
+피렌체 도착 후 숙소 체크인, 두오모 광장·베키오 다리 야경 산책
+피렌체 숙소 하루 25~30만원
+: https://www.agoda.com/hotel-city/hotel/florence-it.html
 1/4
-아침 일찍 6시에 일어나서 짐 맡기고 등산 출발
-살레르노 -> 아말피
-아말피 구경 후
-보메라노로 출발(40분 정도 소요)
-보메라노 ~ 포지타노 3~4시간 소요.
-포지타노 -> 살레르노로. 2시간 정도 소요.
-기차 살레르노 -> 로마 19:50->21:20 이동
+피렌체 종일 관광 (우피치 미술관, 두오모 쿠폴라, 미켈란젤로 광장 등)
+기차 피렌체 -> 로마 19:20->21:00 이동 (Frecciarossa, 약 1시간 40분)
 로마 숙소 :
 https://www.agoda.com/ko-kr/the-romehello/hotel/rome-it.html?countryId=205&finalPriceView=1&isShowMobileAppPrice=false&cid=1781509&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-4&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=r2r08--01a05138-a540-7995-9597-faaa45fffbbd&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=2%2C8&los=4&searchrequestid=ae63f3d7-94e4-4110-9de4-ca64dbb24d6d&ds=M4eHKsN1pNZw1XuF
 1/5
