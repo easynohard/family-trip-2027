@@ -6,16 +6,16 @@ Day별 · 도시별로 폴더가 미리 만들어져 있습니다. (일정표의
 photos/
   day01-barcelona/   Day 1  인천 → 바르셀로나
   day02-barcelona/   Day 2  사그라다 파밀리아
-  day03-florence/    Day 3  바르셀로나 → 피렌체
-  day04-florence/    Day 4  피렌체 → 로마
-  day05-rome/        Day 5  트레비·콜로세움
-  day06-rome/        Day 6  바티칸
-  day07-rome/        Day 7  판테온·포로로마노
-  day08-paris/       Day 8  → 파리·에펠탑
+  day03-rome/        Day 3  바르셀로나 → 로마 (판테온·트레비·스페인 계단)
+  day04-rome/        Day 4  콜로세움·포로로마노
+  day05-rome/        Day 5  바티칸
+  day06-florence/    Day 6  로마 → 피렌체
+  day07-florence/    Day 7  피렌체 관광
+  day08-paris/       Day 8  피렌체 → 파리·에펠탑
   day09-paris/       Day 9  개선문·오르세
-  day10-paris/       Day 10 루브르
-  day11-paris/       Day 11 베르사유
-  day12-paris/       Day 12 귀국
+  day10-paris/       Day 10 베르사유
+  day11-paris/       Day 11 루브르
+  day12-paris/       Day 12 파리 → 인천
 ```
 
 ## 사진 추가하는 법

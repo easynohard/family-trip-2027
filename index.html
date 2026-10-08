@@ -250,7 +250,7 @@
   }
   .hour-grid {
     display: grid;
-    grid-template-columns: 60px repeat(12, 150px);
+    grid-template-columns: 60px repeat(13, 150px);
     grid-template-rows: 52px repeat(18, 44px);
     min-width: 1860px;
   }
@@ -395,7 +395,7 @@
 <body>
 <div class="wrap">
   <h1>2027년 1월 가족여행 일정</h1>
-  <p class="subtitle">2027-01-01(금) 인천 출발 · 바르셀로나 → 피렌체 → 로마 → 파리 · 2027-01-12(화) 인천 귀국 · 11박 12일</p>
+  <p class="subtitle">2027-01-01(금) 인천 출발 · 바르셀로나 → 로마 → 피렌체 → 파리 · 2027-01-12(화) 파리 출발 · 2027-01-13(수) 인천 도착 · 11박 13일</p>
 
   <div class="legend">
     <div class="legend-item"><span class="swatch" style="background: var(--barcelona-bg);"></span>바르셀로나</div>
@@ -421,23 +421,23 @@
       <div class="cell empty"></div>
       <div class="cell empty"></div>
       <div class="cell empty"></div>
-      <div class="cell barcelona trip"><div class="date-num">1</div><div class="day-badge">Day 1</div><div class="city-label">출발 · 바르셀로나 06:00 도착</div></div>
+      <div class="cell barcelona trip"><div class="date-num">1</div><div class="day-badge">Day 1</div><div class="city-label">인천 12:00 출발 · 바르셀로나 18:55 도착</div></div>
       <div class="cell barcelona trip"><div class="date-num">2</div><div class="day-badge">Day 2</div><div class="city-label">사그라다 파밀리아</div></div>
 
       <!-- Week 2 -->
-      <div class="cell florence trip"><div class="date-num">3</div><div class="day-badge">Day 3</div><div class="city-label">→ 피렌체 이동</div></div>
-      <div class="cell florence trip"><div class="date-num">4</div><div class="day-badge">Day 4</div><div class="city-label">피렌체 → 로마</div></div>
+      <div class="cell rome trip"><div class="date-num">3</div><div class="day-badge">Day 3</div><div class="city-label">→ 로마 07:15 비행</div></div>
+      <div class="cell rome trip"><div class="date-num">4</div><div class="day-badge">Day 4</div><div class="city-label">콜로세움·포로로마노</div></div>
       <div class="cell rome trip"><div class="date-num">5</div><div class="day-badge">Day 5</div><div class="city-label">바티칸</div></div>
-      <div class="cell rome trip"><div class="date-num">6</div><div class="day-badge">Day 6</div><div class="city-label">트레비·콜로세움</div></div>
-      <div class="cell rome trip"><div class="date-num">7</div><div class="day-badge">Day 7</div><div class="city-label">판테온·포로로마노</div></div>
-      <div class="cell paris trip"><div class="date-num">8</div><div class="day-badge">Day 8</div><div class="city-label">→ 파리·에펠탑</div></div>
+      <div class="cell florence trip"><div class="date-num">6</div><div class="day-badge">Day 6</div><div class="city-label">로마 → 피렌체</div></div>
+      <div class="cell florence trip"><div class="date-num">7</div><div class="day-badge">Day 7</div><div class="city-label">피렌체 관광</div></div>
+      <div class="cell paris trip"><div class="date-num">8</div><div class="day-badge">Day 8</div><div class="city-label">→ 파리 13:10 비행</div></div>
       <div class="cell paris trip"><div class="date-num">9</div><div class="day-badge">Day 9</div><div class="city-label">개선문·오르세</div></div>
 
       <!-- Week 3 -->
       <div class="cell paris trip"><div class="date-num">10</div><div class="day-badge">Day 10</div><div class="city-label">베르사유</div></div>
       <div class="cell paris trip"><div class="date-num">11</div><div class="day-badge">Day 11</div><div class="city-label">루브르</div></div>
-      <div class="cell paris trip"><div class="date-num">12</div><div class="day-badge">Day 12</div><div class="city-label">귀국</div></div>
-      <div class="cell trip"><div class="date-num">13</div><div class="day-badge">귀국</div><div class="city-label">인천공항 오전 11시 도착</div></div>
+      <div class="cell paris trip"><div class="date-num">12</div><div class="day-badge">Day 12</div><div class="city-label">파리 21:00 출발</div></div>
+      <div class="cell trip"><div class="date-num">13</div><div class="day-badge">귀국</div><div class="city-label">인천공항 17:20 도착</div></div>
       <div class="cell"><div class="date-num">14</div></div>
       <div class="cell"><div class="date-num">15</div></div>
       <div class="cell"><div class="date-num">16</div></div>
@@ -480,35 +480,35 @@
       <tbody>
         <tr class="barcelona">
           <td>01-01 (금)</td><td>Day 1</td><td>인천 → 바르셀로나</td>
-          <td class="wrap-cell">인천 출발, 장거리 이동(경유, 13~17시간)</td><td>바르셀로나</td><td class="wrap-cell">신정(1/1) 출국, 직항 없음·경유편 비교 필요. 검토 중: 아시아나 11:30→18:30, 110만원대(가족 총액 재확인)</td>
+          <td class="wrap-cell">아시아나 인천 12:00→바르셀로나 18:55 (확정). 숙소 도착 약 20:30</td><td>바르셀로나</td><td class="wrap-cell">4명 약 360만원. 현지시각. 공항→숙소 택시 약 30분·€50 (이전 메모). 인천공항 09:00 전후 도착 목표</td>
         </tr>
         <tr class="barcelona">
           <td>01-02 (토)</td><td>Day 2</td><td>바르셀로나</td>
-          <td class="wrap-cell">사그라다 파밀리아 + 고딕지구·람블라스</td><td>바르셀로나</td><td class="wrap-cell">⚠ 국제미사(일요일 9시 한정)는 이 날짜엔 해당 없음 — 토요일 일반 관람으로 진행</td>
+          <td class="wrap-cell">사그라다 파밀리아 + 고딕지구·람블라스</td><td>바르셀로나</td><td class="wrap-cell">⚠ 국제미사(일요일 9시 한정)는 이 날짜엔 해당 없음 — 토요일 일반 관람. 다음날 05:00 기상이라 일찍 취침</td>
         </tr>
-        <tr class="florence">
-          <td>01-03 (일)</td><td>Day 3</td><td>바르셀로나 → 피렌체</td>
-          <td class="wrap-cell">오전 바르셀로나 추가관광(구엘공원 등) 후 항공(Vueling 직항 12:25→14:15), 오후 피렌체 도착 후 두오모 광장·베키오 다리 야경 산책</td><td>피렌체</td><td class="wrap-cell">Vueling 직항 약 1시간 50분, 위탁수하물 요금제 확인 필요 (아래 수하물 규정 참고)</td>
+        <tr class="rome">
+          <td>01-03 (일)</td><td>Day 3</td><td>바르셀로나 → 로마</td>
+          <td class="wrap-cell">Vueling 바르셀로나 07:15→로마 09:05 (확정). <strong>05:00 기상</strong>, 체크아웃 후 공항 이동. 로마 숙소에 짐 맡기고 판테온·트레비·스페인 계단·나보나 광장</td><td>로마</td><td class="wrap-cell">4명 60만원 미만. 바르셀로나 숙소 짐 맡기기 가능. 위탁 3개는 요금제 확인. 체크인 전 짐 보관 문의</td>
         </tr>
-        <tr class="florence">
-          <td>01-04 (월)</td><td>Day 4</td><td>피렌체 → 로마</td>
-          <td class="wrap-cell">우피치 미술관·두오모 쿠폴라·미켈란젤로 광장 등 종일 관광 후 기차로 로마 이동</td><td>로마</td><td class="wrap-cell">Frecciarossa 고속열차 약 1시간 40분(19:20→21:00 예상), 사전 예매 권장</td>
+        <tr class="rome">
+          <td>01-04 (월)</td><td>Day 4</td><td>로마</td>
+          <td class="wrap-cell">콜로세움·포로로마노·팔라티노 언덕</td><td>로마</td><td class="wrap-cell">사전예약 권장. 일요일 바티칸 박물관 휴관이라 바티칸은 Day5로 배치</td>
         </tr>
         <tr class="rome">
           <td>01-05 (화)</td><td>Day 5</td><td>로마</td>
-          <td class="wrap-cell">바티칸 박물관·시스티나 성당·성 베드로 대성당</td><td>로마</td><td class="wrap-cell">사전예약 권장, 화요일 정상 개관(주현절과 안 겹침)</td>
+          <td class="wrap-cell">바티칸 박물관·시스티나 성당·성 베드로 대성당</td><td>로마</td><td class="wrap-cell">사전예약 권장, 화요일 정상 개관. 다음날 이동일이라 짐 정리</td>
         </tr>
-        <tr class="rome">
-          <td>01-06 (수)</td><td>Day 6</td><td>로마</td>
-          <td class="wrap-cell">콜로세움·포로로마노(오전, 겨울 16:30 폐장)·트레비 분수·스페인 계단</td><td>로마</td><td class="wrap-cell">⚠ 주현절, 바티칸 박물관 휴관이라 이 날은 피함</td>
+        <tr class="florence">
+          <td>01-06 (수)</td><td>Day 6</td><td>로마 → 피렌체</td>
+          <td class="wrap-cell">체크아웃 후 Roma Termini → Firenze S. M. Novella 고속열차, 피렌체 숙소 체크인, 두오모 광장·베키오 다리 산책</td><td>피렌체</td><td class="wrap-cell">⚠ 열차 시간·요금 미확정(예매 전). 주현절(공휴일) 이동일</td>
         </tr>
-        <tr class="rome">
-          <td>01-07 (목)</td><td>Day 7</td><td>로마</td>
-          <td class="wrap-cell">포로로마노·팔라티노 언덕·판테온·나보나 광장</td><td>로마</td><td class="wrap-cell">로마 마지막 밤</td>
+        <tr class="florence">
+          <td>01-07 (목)</td><td>Day 7</td><td>피렌체</td>
+          <td class="wrap-cell">우피치 미술관·두오모 쿠폴라·베키오 다리·미켈란젤로 광장 일몰</td><td>피렌체</td><td class="wrap-cell">우피치·쿠폴라 사전예약 필요</td>
         </tr>
         <tr class="paris">
-          <td>01-08 (금)</td><td>Day 8</td><td>로마 → 파리</td>
-          <td class="wrap-cell">오전 항공 이동(transavia 10:30→12:40), 오후 파리 도착, 해질녘 바토무슈(센강 유람선)·저녁 에펠탑</td><td>파리</td><td class="wrap-cell">바토무슈 승선장·시간표 확인 필요 · 파리 일정 전체 변경 가능 · transavia 수하물 규정 아래 참고</td>
+          <td>01-08 (금)</td><td>Day 8</td><td>피렌체 → 파리</td>
+          <td class="wrap-cell">Vueling 피렌체 13:10→파리 오를리 14:55 (확정). 숙소 10:30 출발, 공항 11:15 전 도착. 파리 숙소 약 16:30 도착 후 바토무슈·에펠탑</td><td>파리</td><td class="wrap-cell">4명 50만원 미만. 위탁 3개는 요금제 확인. 바토무슈 시간 재확인</td>
         </tr>
         <tr class="paris">
           <td>01-09 (토)</td><td>Day 9</td><td>파리</td>
@@ -524,7 +524,7 @@
         </tr>
         <tr class="paris">
           <td>01-12 (화)</td><td>Day 12</td><td>파리 → 인천</td>
-          <td class="wrap-cell">공항 이동, 귀국 비행(직항 약 14시간, 11:20 서울 도착 후보 있음)</td><td>-</td><td class="wrap-cell">후보: 대한항공/아시아나/에어프랑스 직항 또는 루프트한자 1회 경유(70만원대) — 비교 필요</td>
+          <td class="wrap-cell">체크아웃 후 짐 맡기고 몽마르트르 등 자유일정. 17:00경 숙소 출발, 공항 18:00 전 도착. 아시아나 파리 21:00 출발 (확정)</td><td>-</td><td class="wrap-cell">4명 약 370만원. 1/13(수) 17:20 인천 도착. 체크아웃 후 짐 보관 가능 여부 숙소에 확인</td>
         </tr>
       </tbody>
     </table>
@@ -536,25 +536,20 @@
       <thead><tr><th>도시</th><th>숙박</th><th>숙소</th></tr></thead>
       <tbody>
         <tr class="barcelona">
-          <td>바르셀로나</td><td>2박 (1/1~1/2)</td>
-          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/aparthotel-atenea-barcelona_5/hotel/barcelona-es.html" target="_blank" rel="noopener">Aparthotel Atenea Barcelona</a> (하루 약 40만원)</td>
-        </tr>
-        <tr class="florence">
-          <td>피렌체</td><td>1박 (1/3) — 1/4 종일 관광 후 저녁에 로마 이동</td>
-          <td class="wrap-cell"><a href="https://www.agoda.com/hotel-city/hotel/florence-it.html" target="_blank" rel="noopener">Hotel City</a> (하루 약 25~30만원, 후보)</td>
+          <td>바르셀로나</td><td>2박 (1/1~1/3 체크아웃)</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/aparthotel-atenea-barcelona_5/hotel/barcelona-es.html" target="_blank" rel="noopener">Aparthotel Atenea Barcelona</a> (확정 · 짐 맡기기 가능 · 1/3 로마행 비행 때문에 05:00 기상 필요)</td>
         </tr>
         <tr class="rome">
-          <td>로마</td><td>4박 (1/4~1/7)</td>
-          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/the-romehello/hotel/rome-it.html" target="_blank" rel="noopener">The RomeHello</a></td>
+          <td>로마</td><td>3박 (1/3~1/6 체크아웃)</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/unahotels-deco-roma/hotel/rome-it.html" target="_blank" rel="noopener">UNAHOTELS Deco Roma</a> (확정)</td>
+        </tr>
+        <tr class="florence">
+          <td>피렌체</td><td>2박 (1/6~1/8 체크아웃)</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/hotel-albani-firenze/hotel/florence-it.html" target="_blank" rel="noopener">Hotel Albani Firenze</a> (확정)</td>
         </tr>
         <tr class="paris">
-          <td>파리</td><td>4박 (1/8~1/11)</td>
-          <td class="wrap-cell">
-            미확정 —
-            <a href="https://www.agoda.com/ko-kr/hotel-magda-champs-elysees_3/hotel/paris-fr.html" target="_blank" rel="noopener">Option1: Hotel Magda Champs-Elysees</a> ·
-            <a href="https://www.agoda.com/ko-kr/aparthotel-adagio-paris-tour-eiffel/hotel/paris-fr.html" target="_blank" rel="noopener">Option2: Aparthotel Adagio Tour Eiffel</a> ·
-            <a href="https://www.agoda.com/ko-kr/amazing-superior-apartment-near-champ-de-mars-eiffel-tower/hotel/paris-fr.html" target="_blank" rel="noopener">Option3: Amazing Superior Apartment</a>
-          </td>
+          <td>파리</td><td>4박 (1/8~1/12 체크아웃)</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/hotel-magda-champs-elysees_3/hotel/paris-fr.html" target="_blank" rel="noopener">Hotel Magda Champs-Elysees</a> (확정)</td>
         </tr>
       </tbody>
     </table>
@@ -563,15 +558,15 @@
   <div class="todo">
     <h2 style="margin-top:0;">TODO</h2>
     <ul>
-      <li>인천 → 바르셀로나 항공권 예약 (직항 없음, 경유편 비교, 중동 경유 항공사 제외). 검토 중: 아시아나 11:30→18:30 110만원대</li>
-      <li>바르셀로나 → 피렌체 항공권 예약 (Vueling 직항, 약 1시간 50분) 및 요금제별 위탁수하물 포함 여부 확인</li>
-      <li>로마 → 파리 항공권 예약 (transavia 10:30→12:40) 및 위탁수하물 규정 확인</li>
-      <li>파리 → 인천 귀국 항공권 예약 (1/12). 후보: 직항 3사 vs 루프트한자 경유(70만원대) 가격 비교</li>
-      <li>피렌체 → 로마 Frecciarossa 기차 시간표 확정 및 예매 (저녁 시간대, 약 1시간 40분)</li>
+      <li>항공권 예매 (가격은 4명 합계): 인천→바르셀로나 아시아나 1/1 12:00→18:55 (약 360만원) / 바르셀로나→로마 Vueling 1/3 07:15→09:05 (60만원 미만) / 피렌체→파리 오를리 Vueling 1/8 13:10→14:55 (50만원 미만) / 파리→인천 아시아나 1/12 21:00→1/13 17:20 (약 370만원)</li>
+      <li>Vueling 2구간 요금제별 위탁수하물 포함 여부 확인 (캐리어 3개)</li>
+      <li>로마 → 피렌체 1/6 고속열차 시간·요금 확인 후 예매</li>
+      <li>1/3 05:00 기상 — 새벽 공항 이동수단(택시 예약 등) 정하기. 로마 숙소 체크인 전 짐 맡기기 확인</li>
+      <li>1/12 파리 숙소 체크아웃 후 짐 보관 가능 여부 확인 (21:00 비행)</li>
       <li>피렌체 관광 코스 확정(우피치 미술관 예약, 두오모 쿠폴라 등반권, 미켈란젤로 광장 일몰 시간 체크)</li>
-      <li>도시별 숙소 예약 (바르셀로나 2박 / 피렌체 1박 / 로마 4박 / 파리 4박)</li>
+      <li style="text-decoration:line-through;">도시별 숙소 확정 (바르셀로나 2박 / 로마 3박 / 피렌체 2박 / 파리 4박) — 2026-10-08 확정</li>
       <li>주요 명소 사전 예약 (바티칸 박물관, 콜로세움, 사그라다 파밀리아 등)</li>
-      <li style="text-decoration:line-through;">일정 전체 하루씩 당김(1/1~1/12) 반영, Day5(화)·Day6(수) 순서 교체로 바티칸 주현절 휴관 회피 완료</li>
+      <li style="text-decoration:line-through;">일정 전체 하루씩 당김(1/1~1/12) 반영, 로마 3일 재배치(1/3 일 도착 후 시내, 1/4 콜로세움, 1/5 바티칸)로 일요일·주현절 바티칸 휴관 회피</li>
       <li style="text-decoration:line-through;">베르사유 월요일 휴관 확인 → Day10(일) 베르사유, Day11(월) 루브르로 교체해 회피 완료</li>
       <li>사그라다 파밀리아 국제미사(일요일 9시) 참석 여부 재검토 — Day2가 토요일(1/2)이 되어 미사 시간과 안 맞음</li>
       <li>바토무슈(센강 유람선) 승선장·시간표 확인 (해질녘 탑승 목표)</li>
@@ -583,7 +578,8 @@
   </div>
 
   <div class="todo">
-    <h2>항공권 예약 메모 (2026-09-01 갱신)</h2>
+    <h2>항공권 예약 메모 (2026-10-08 항공 확정)</h2>
+    <p class="note">성인 4명, 28인치 2개 + 20인치 1개 기준. 2026-10-08 항공편을 아시아나(인천↔유럽)·Vueling(유럽 내)으로 확정했고, 이전 루프트한자·Transavia·Frecciarossa 조회 내용은 폐기되었습니다(아래 링크 문서는 이전 조회 기록). <a href="reference/transport/2026-10-05-live-check.md">실시간 조회 가격·수하물·공항 이동 근거</a>를 확인하세요. 차량 이동시간은 짐 3개를 실을 수 있는 차량과 교통 여유를 고려한 계획값입니다.</p>
     <p class="wrap-cell" style="color:var(--text-muted);">
       <strong style="color:var(--accent);">중동 경유 제외 결정</strong>: 카타르항공(도하)·에미레이트(두바이)·에티하드(아부다비) 등 중동 경유 항공사는 이용하지 않기로 결정했습니다.
     </p>
@@ -612,25 +608,24 @@
     <table>
       <thead><tr><th>항공사</th><th>구간</th><th>기내 수하물</th><th>큰 기내 수하물</th><th>위탁 수하물</th></tr></thead>
       <tbody>
-        <tr><td>Vueling</td><td class="wrap-cell">1/3 바르셀로나→피렌체</td><td>40×30×20cm, 무료(1인 1개)</td><td>55×40×20cm, 10kg (요금제별)</td><td class="wrap-cell">15~30kg, 3면 합 158cm 이하 (요금제별 포함/별도구매)</td></tr>
-        <tr><td>transavia</td><td class="wrap-cell">1/8 로마→파리</td><td>40×30×20cm, 무료</td><td>55×40×25cm, 10kg</td><td class="wrap-cell">3면 합 165cm, 20kg (1인 최대 32kg, 총 50kg)</td></tr>
+        <tr><td>Vueling</td><td class="wrap-cell">1/3 바르셀로나→로마, 1/8 피렌체→파리</td><td>40×30×20cm, 무료(1인 1개)</td><td>55×40×20cm, 10kg (요금제별)</td><td class="wrap-cell">15~30kg, 3면 합 158cm 이하 (요금제별 포함/별도구매)</td></tr>
         <tr><td>wizz (예비 후보)</td><td>-</td><td>40×30×20cm, 무료</td><td>55×40×23cm, 10kg</td><td>20kg</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="note">28인치 캐리어(3면 합 156cm)는 Vueling(158cm)·transavia(165cm) 규정 모두 통과 — 무게만 20kg 이내로 맞추면 됨. Vueling은 최저가 요금제일수록 위탁수하물이 기본 요금에서 빠지는 경우가 많으니 예약 시 요금제 확인할 것. 인천↔바르셀로나·파리↔인천 구간은 풀서비스 항공사 기준이라 별개(위 23kg 위탁수하물 문단 참고).</p>
+  <p class="note">28인치 캐리어(3면 합 156cm)는 Vueling(158cm) 규정 통과 — 무게만 20kg 이내로 맞추면 됨. Vueling은 최저가 요금제일수록 위탁수하물이 기본 요금에서 빠지는 경우가 많으니 예약 시 요금제 확인할 것. 인천↔바르셀로나·파리↔인천 구간(아시아나)은 풀서비스 항공사 기준이라 별개(위 23kg 위탁수하물 문단 참고).</p>
 
   <h2>예상 경비</h2>
-  <p class="subtitle" style="margin-bottom:14px;">2026-09-01 메모 기준, 4인 가족. 항공권·숙소 미확정이라 변동 가능</p>
+  <p class="subtitle" style="margin-bottom:14px;">4인 가족. 항공권은 2026-10-08 확정 노선·가격 반영, 숙소·식비는 추정</p>
   <div class="table-scroll">
     <table>
       <thead><tr><th>항목</th><th>금액(만원)</th><th>비고</th></tr></thead>
       <tbody>
-        <tr><td>숙소</td><td>440</td><td>1박 평균 약 40만원 × 11박</td></tr>
-        <tr><td>항공권</td><td>700 + 100</td><td>국제선 700 + 유럽 내 저비용항공 100(추정)</td></tr>
+        <tr><td>숙소</td><td>440</td><td>1박 평균 약 40만원 × 11박 (확정 숙소 가격 미반영)</td></tr>
+        <tr><td>항공권</td><td>약 840 이내</td><td>인천→BCN 360 + BCN→로마 &lt;60 + 피렌체→파리 &lt;50 + 파리→인천 370 (4명 합계, 위탁수하물 별도 확인)</td></tr>
         <tr><td>식비</td><td>200</td><td>하루 20만원 × 10일</td></tr>
         <tr><td>박물관·기념품·가이드</td><td>200</td><td>추정치</td></tr>
-        <tr><td><strong>합계</strong></td><td><strong>약 1,640</strong></td><td>-</td></tr>
+        <tr><td><strong>합계</strong></td><td><strong>약 1,680</strong></td><td>-</td></tr>
       </tbody>
     </table>
   </div>
@@ -639,7 +634,7 @@
     <h2>여행 기간 중 유럽 공휴일</h2>
     <ul>
       <li>1/1 (금) 신정 — 스페인·이탈리아·프랑스 공통 공휴일, 이번엔 여행 시작일(Day1, 출국일)과 겹침. 이동일이라 명소 일정엔 영향 없으나 도착 당일 늦은 시간대 매장·식당 영업 제한 가능성 있음</li>
-      <li>1/6 (수) 주현절(Epiphany) — 스페인·이탈리아 공휴일(프랑스는 해당 없음). 바티칸 박물관 휴관 확인되어 Day5(화)에 바티칸, Day6(수)에 콜로세움을 배치해 회피 완료. 로마 체류 중 다른 명소도 휴관/단축 운영 가능성 있어 현지 임박 확인 권장</li>
+      <li>1/6 (수) 주현절(Epiphany) — 스페인·이탈리아 공휴일(프랑스는 해당 없음). 바티칸 박물관 휴관 확인되어 이 날은 로마→피렌체 이동일이고 바티칸은 Day5(화)로 배치해 회피 완료. 피렌체 명소도 휴관/단축 운영 가능성 있어 현지 임박 확인 권장. 로마 체류 중 다른 명소도 휴관/단축 운영 가능성 있어 현지 임박 확인 권장</li>
     </ul>
   </div>
 
@@ -665,13 +660,12 @@
   // [date, weekday, city, cityLabel, blocks[start,dur,tag,text,flag]]
   var DAYS = [
     ["1/1","금","barcelona","Day1 · 바르셀로나 도착",[
-      [6,4,"자유","기상/짐 최종 점검"],
-      [10,1,"이동","인천공항 이동/탑승수속"],
-      [11,7,"이동","인천 11:30 출발 → 바르셀로나 18:30 도착 (경유, 약 15h)"],
-      [18,1,"이동","바르셀로나 도착, 입국심사·수하물"],
-      [19,1,"취침","숙소 이동/체크인"],
-      [20,2,"식사","숙소 인근 저녁식사"],
-      [22,2,"자유","휴식/취침"]
+      [6,3,"자유","기상/짐 최종 점검"],
+      [9,1,"이동","인천공항 도착 목표 09:00 (출발 3시간 전)"],
+      [10,2,"이동","탑승수속·위탁수하물·출국심사"],
+      [12,7,"이동","아시아나 인천 12:00 → 바르셀로나 18:55 (현지시각, 확정)"],
+      [19,2,"이동","입국심사·수하물 수령·택시 약 30분 (€50 정도) → 숙소 약 20:30 도착"],
+      [21,3,"식사","체크인·간단한 저녁·휴식 (1/1 신정, 영업하는 식당 확인)",1]
     ]],
     ["1/2","토","barcelona","Day2 · 사그라다 파밀리아",[
       [6,1,"취침","기상/준비"],
@@ -680,75 +674,74 @@
       [9,3,"관광","성당 내부 관람 (국제미사는 일요일 한정, 이 날짜엔 해당 없음)",1],
       [12,1,"식사","점심"],
       [13,4,"관광","고딕지구·람블라스 관광"],
-      [17,2,"자유","자유/쇼핑"],
+      [17,2,"자유","자유/쇼핑·짐 정리"],
       [19,2,"식사","저녁식사"],
-      [21,3,"자유","자유/휴식"]
+      [21,3,"취침","일찍 취침 (내일 05:00 기상)"]
     ]],
-    ["1/3","일","florence","Day3 · 바르셀로나→피렌체",[
-      [6,2,"취침","기상/조식/짐정리"],
-      [8,2,"관광","바르셀로나 추가관광(구엘공원 등)"],
-      [10,1,"이동","체크아웃/공항 이동"],
-      [11,1,"이동","공항 수속·수하물 위탁",1],
-      [12,2,"이동","바르셀로나 12:25 출발 → 피렌체 14:15 도착 (Vueling 직항)"],
-      [14,1,"이동","피렌체 공항 도착, 숙소로 이동"],
-      [15,2,"이동","숙소 체크인/짐정리"],
-      [17,2,"관광","두오모 광장·베키오 다리 야경 산책"],
+    ["1/3","일","rome","Day3 · 바르셀로나→로마",[
+      [6,1,"이동","05:00 기상 → 체크아웃·공항 이동 (06:00 전 도착 목표)",1],
+      [7,1,"이동","수속·캐리어 3개 위탁·탑승 (Vueling 07:15 출발)"],
+      [8,2,"이동","Vueling 바르셀로나 07:15 → 로마 09:05 (확정)"],
+      [10,2,"이동","수하물 수령·시내 이동, 로마 숙소에 짐 맡기기(체크인 전)",1],
+      [12,1,"식사","점심"],
+      [13,2,"관광","판테온·나보나 광장"],
+      [15,1,"관광","트레비 분수"],
+      [16,1,"관광","스페인 계단"],
+      [17,2,"자유","체크인·휴식"],
       [19,2,"식사","저녁식사"],
       [21,3,"취침","취침"]
     ]],
-    ["1/4","월","florence","Day4 · 피렌체→로마",[
+    ["1/4","월","rome","Day4 · 콜로세움",[
       [6,2,"취침","기상/조식"],
-      [8,1,"이동","체크아웃/짐 보관"],
+      [8,1,"이동","콜로세움 이동"],
+      [9,3,"관광","콜로세움+포로로마노 (겨울 16:30 폐장, 사전예약)"],
+      [12,1,"식사","점심"],
+      [13,3,"관광","팔라티노 언덕"],
+      [16,3,"자유","자유/쇼핑"],
+      [19,2,"식사","저녁식사"],
+      [21,3,"자유","야경 산책/자유"]
+    ]],
+    ["1/5","화","rome","Day5 · 바티칸",[
+      [6,2,"취침","기상/조식"],
+      [8,1,"이동","바티칸 이동"],
+      [9,3,"관광","바티칸박물관+시스티나 성당 (화요일 정상 개관)"],
+      [12,1,"식사","점심"],
+      [13,2,"관광","성 베드로 대성당"],
+      [15,2,"자유","광장 주변 산책"],
+      [17,2,"자유","자유시간·짐 정리"],
+      [19,2,"식사","로마 마지막 저녁식사"],
+      [21,3,"자유","자유/휴식"]
+    ]],
+    ["1/6","수","florence","Day6 · 로마→피렌체",[
+      [6,2,"취침","기상/조식/짐 정리"],
+      [8,2,"이동","체크아웃·Roma Termini 이동",1],
+      [10,2,"이동","로마→피렌체 고속열차 (시간·예매 미확정, 약 1.5h)",1],
+      [12,2,"이동","피렌체 숙소 짐 맡기기/체크인"],
+      [14,1,"식사","점심"],
+      [15,2,"관광","두오모 광장·대성당 외관·베키오 다리"],
+      [17,2,"자유","자유/휴식"],
+      [19,2,"식사","저녁식사 (주현절 공휴일, 영업 확인)"],
+      [21,3,"취침","취침"]
+    ]],
+    ["1/7","목","florence","Day7 · 피렌체",[
+      [6,2,"취침","기상/조식"],
+      [8,1,"이동","우피치 이동"],
       [9,3,"관광","우피치 미술관 관람",1],
       [12,1,"식사","점심"],
       [13,2,"관광","두오모 쿠폴라 등반·대성당 관람"],
       [15,2,"관광","베키오 다리·피티 궁전 인근 산책"],
       [17,1,"관광","미켈란젤로 광장 일몰"],
-      [18,1,"이동","숙소 짐 수령/역으로 이동"],
-      [19,2,"이동","피렌체 19:20 출발 → 로마 21:00 도착 (Frecciarossa)",1],
-      [21,3,"취침","로마 도착/체크인/취침"]
+      [18,2,"식사","저녁식사"],
+      [20,1,"이동","짐 정리 (내일 오전 공항 이동)"],
+      [21,3,"취침","취침"]
     ]],
-    ["1/5","화","rome","Day5 · 바티칸",[
+    ["1/8","금","paris","Day8 · 피렌체→파리",[
       [6,2,"취침","기상/조식"],
-      [8,1,"이동","바티칸 이동"],
-      [9,3,"관광","바티칸박물관+시스티나 성당 (화요일 정상 개관, 주현절과 안 겹침)"],
-      [12,1,"식사","점심"],
-      [13,2,"관광","성 베드로 대성당"],
-      [15,2,"자유","광장 주변 산책"],
-      [17,2,"자유","자유시간"],
-      [19,2,"식사","저녁식사"],
-      [21,3,"자유","자유/휴식"]
-    ]],
-    ["1/6","수","rome","Day6 · 트레비·콜로세움",[
-      [6,2,"취침","기상/조식"],
-      [8,1,"이동","콜로세움 이동"],
-      [9,2,"관광","콜로세움+포로로마노 (겨울 16:30 폐장)",1],
-      [11,1,"이동","이동"],
-      [12,1,"식사","점심"],
-      [13,2,"관광","트레비 분수 및 주변"],
-      [15,1,"관광","스페인 계단"],
-      [16,3,"자유","자유/쇼핑"],
-      [19,2,"식사","저녁식사"],
-      [21,3,"자유","야경 산책/자유"]
-    ]],
-    ["1/7","목","rome","Day7 · 판테온·포로로마노",[
-      [6,2,"취침","기상/조식"],
-      [8,1,"이동","이동"],
-      [9,3,"관광","포로로마노+팔라티노 언덕"],
-      [12,1,"식사","점심"],
-      [13,2,"관광","판테온"],
-      [15,3,"자유","나보나 광장/캄포 데 피오리"],
-      [18,3,"식사","로마 마지막 저녁식사"],
-      [21,3,"자유","자유"]
-    ]],
-    ["1/8","금","paris","Day8 · 파리·에펠탑",[
-      [6,2,"취침","기상/조식"],
-      [8,1,"이동","체크아웃/공항 이동"],
-      [9,1,"이동","공항 수속"],
-      [10,3,"이동","로마 10:30 출발 → 파리 12:40 도착 (transavia)"],
-      [13,1,"이동","파리 도착, 숙소 이동/체크인"],
-      [14,1,"식사","점심"],
-      [15,2,"자유","자유일정/숙소 정리"],
+      [8,2,"자유","체크아웃 준비·여유"],
+      [10,1,"이동","숙소 10:30 출발 → 피렌체 공항 11:15 전 도착"],
+      [11,2,"이동","수속·캐리어 3개 위탁·탑승 대기"],
+      [13,2,"이동","Vueling 피렌체 13:10 → 파리 오를리 14:55 (확정)"],
+      [15,2,"이동","수하물 수령·차량 이동 → 파리 숙소 약 16:30 도착"],
       [17,1,"관광","바토무슈(센강 유람선) — 해질녘 탑승",1],
       [18,2,"관광","에펠탑 (야경)"],
       [20,2,"식사","저녁식사"],
@@ -786,13 +779,19 @@
       [13,1,"식사","점심"],
       [14,3,"자유","자유일정(몽마르트르 등)"],
       [17,2,"자유","자유/기념품 쇼핑"],
-      [19,2,"식사","파리 마지막 저녁식사"],
+      [19,2,"식사","저녁식사"],
       [21,3,"취침","짐정리/휴식"]
     ]],
-    ["1/12","화","paris","Day12 · 귀국",[
-      [6,2,"취침","기상/체크아웃"],
-      [8,3,"이동","공항 이동+수속"],
-      [11,13,"이동","파리→인천 탑승/비행 (약 14h, 한국 도착은 익일)"]
+    ["1/12","화","paris","Day12 · 파리→인천",[
+      [6,3,"취침","기상/조식/체크아웃 후 짐 맡기기",1],
+      [9,7,"자유","자유일정(몽마르트르·기념품 쇼핑 등)"],
+      [16,1,"식사","이른 저녁"],
+      [17,1,"이동","숙소 짐 수령·공항 이동 (18:00 전 도착 목표)"],
+      [18,3,"이동","탑승수속·위탁수하물·출국심사"],
+      [21,3,"이동","아시아나 파리 21:00 출발 → 1/13 17:20 인천 도착 (확정)"]
+    ]],
+    ["1/13","수","","Day13 · 인천 도착",[
+      [17,2,"이동","인천공항 17:20 도착 · 귀가"]
     ]]
   ];
 
@@ -843,13 +842,13 @@
   var GALLERY_DAYS = [
     ["day01-barcelona", "Day 1", "1/1 (금)", "barcelona", "바르셀로나"],
     ["day02-barcelona", "Day 2", "1/2 (토)", "barcelona", "바르셀로나"],
-    ["day03-florence",  "Day 3", "1/3 (일)", "florence",  "피렌체"],
-    ["day04-florence",  "Day 4", "1/4 (월)", "florence",  "피렌체"],
+    ["day03-rome",      "Day 3", "1/3 (일)", "rome",      "로마"],
+    ["day04-rome",      "Day 4", "1/4 (월)", "rome",      "로마"],
     ["day05-rome",      "Day 5", "1/5 (화)", "rome",      "로마"],
-    ["day06-rome",      "Day 6", "1/6 (수)", "rome",      "로마"],
-    ["day07-rome",      "Day 7", "1/7 (목)", "rome",      "로마"],
+    ["day06-florence",  "Day 6", "1/6 (수)", "florence",  "피렌체"],
+    ["day07-florence",  "Day 7", "1/7 (목)", "florence",  "피렌체"],
     ["day08-paris",     "Day 8", "1/8 (금)", "paris",     "파리"],
-    ["day09-paris",     "Day 9", "1/9 (토)", "paris",    "파리"],
+    ["day09-paris",     "Day 9", "1/9 (토)", "paris",     "파리"],
     ["day10-paris",     "Day 10", "1/10 (일)", "paris",   "파리"],
     ["day11-paris",     "Day 11", "1/11 (월)", "paris",   "파리"],
     ["day12-paris",     "Day 12", "1/12 (화)", "paris",   "파리"]
@@ -859,13 +858,13 @@
   var PHOTOS = {
     "day01-barcelona": ["barcelona hotel.png", "how to go hotel from BCN airport.png"],
     "day02-barcelona": ["casabat.jpg", "from hotel to sagrada.png", "sagrada.jpg", "guel.jpg", "ramblas.jpg", "department ingles.jpg"],
-    "day03-florence": [],
-    "day04-florence": [],
+    "day03-rome": ["trevi.jpg", "square.jpg", "pantheon.jpg"],
+    "day04-rome": ["coloseum.jpg"],
     "day05-rome": ["vatican.jpg", "vatican museum.jpg", "sistia.jpg"],
-    "day06-rome": ["coloseum.jpg", "trevi.jpg", "square.jpg", "pantheon.jpg"],
-    "day07-rome": [],
-    "day08-paris": ["arcdetriomphe.jpg", "sienne river.jpg", "notredame.jpg", "montmarte.jpg", "opera.jpg", "galerie laffayetter.jpg"],
-    "day09-paris": [],
+    "day06-florence": [],
+    "day07-florence": [],
+    "day08-paris": [],
+    "day09-paris": ["arcdetriomphe.jpg", "sienne river.jpg", "notredame.jpg", "montmarte.jpg", "opera.jpg", "galerie laffayetter.jpg"],
     "day10-paris": ["versaile.jpg", "versaile.avif"],
     "day11-paris": ["louvre.jpg"],
     "day12-paris": []
