@@ -46,11 +46,12 @@ https://www.agoda.com/ko-kr/palladium-palace-hotel/hotel/rome-it.html?countryId=
 1/6 로마 -> 피렌체 고속열차 (시간 미확정)
 피렌체 숙소 (확정, 1/6~1/8 2박):
 https://www.agoda.com/ko-kr/hotel-albani-firenze/hotel/florence-it.html?countryId=205&finalPriceView=1&isShowMobileAppPrice=false&cid=1922887&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=f7739694-dbb7-41bd-aa27-be7c942ce354&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=9%2C8&los=2&searchrequestid=32145ea7-1cda-42ab-9690-f8c3ce057756&ds=g%2BMetYflt1hx4Jv6
-1/7 피렌체 종일 관광 (우피치 미술관, 두오모 쿠폴라, 미켈란젤로 광장 등)
+1/7 피렌체: 09:30 우피치 투어 시작 (김정아 가이드), 14:30 아카데미아 투어, 미켈란젤로 광장 등
+투어 예약: https://tour.yanolja.com/tna/products/50f904fc-9820-4721-aafc-75d5ec5417e4?startDate=2027-01-07&endDate=2027-01-07&selectedDate=2027-01-07
 
 1/8 피렌체 -> 파리 오를리 Vueling 13:10 -> 14:55 (확정, 4명 50만원 미만)
-파리 숙소 (확정, Hotel Magda Champs-Elysees, 1/8~1/12 4박):
-https://www.agoda.com/ko-kr/hotel-magda-champs-elysees_3/hotel/paris-fr.html?countryId=153&finalPriceView=1&isShowMobileAppPrice=false&cid=1922887&numberOfBedrooms=&familyMode=false&adults=4&children=0&rooms=1&maxRooms=0&checkIn=2027-01-8&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=KRW&isFreeOccSearch=false&tag=f7739694-dbb7-41bd-aa27-be7c942ce354&flightSearchCriteria=%5Bobject+Object%5D&tspTypes=2&los=4&searchrequestid=71eb3c1a-336c-460f-8c74-2c29b265ef17&ds=g%2BMetYflt1hx4Jv6
+파리 숙소 (확정, Hotel Elysees Ceramic, 1/8~1/12 4박):
+https://www.agoda.com/ko-kr/hotel-elysees-ceramic/hotel/paris-fr.html?ds=SZkETkhD%2BD%2B26ghW
 1/12
 아시아나 파리 21:00 -> 1/13 인천 17:20 도착 (확정, 4명 약 370만원)
 
