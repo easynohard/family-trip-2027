@@ -390,6 +390,13 @@
     line-height: 1;
     cursor: pointer;
   }
+  .checklist .ck-h { margin: 14px 0 4px; font-size: 1rem; }
+  h4.ck-h { font-size: 0.9rem; margin-top: 10px; color: var(--text-muted); }
+  .ck-list { list-style: none; padding-left: 0; margin: 4px 0; }
+  .ck-list li { margin: 4px 0; }
+  .ck-list label { cursor: pointer; display: flex; gap: 8px; align-items: flex-start; }
+  .ck-list input { margin-top: 4px; }
+  .ck-list input:checked + * , .ck-list li.done { text-decoration: line-through; opacity: 0.6; }
 </style>
 </head>
 <body>
@@ -541,7 +548,7 @@
         </tr>
         <tr class="rome">
           <td>로마</td><td>3박 (1/3~1/6 체크아웃)</td>
-          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/palladium-palace-hotel/hotel/rome-it.html" target="_blank" rel="noopener">Palladium Palace Hotel</a> (확정)</td>
+          <td class="wrap-cell"><a href="https://www.agoda.com/ko-kr/accom/property?propertyId=12528366&amp;countryId=205&amp;finalPriceView=2&amp;isShowMobileAppPrice=false&amp;cid=-999&amp;numberOfBedrooms=&amp;familyMode=false&amp;adults=4&amp;children=0&amp;rooms=1&amp;maxRooms=0&amp;checkIn=2027-01-3&amp;isCalendarCallout=false&amp;childAges=&amp;numberOfGuest=0&amp;missingChildAges=false&amp;travellerType=3&amp;showReviewSubmissionEntry=false&amp;currencyCode=KRW&amp;isFreeOccSearch=false&amp;flightSearchCriteria=%5Bobject+Object%5D&amp;los=3&amp;searchrequestid=766c9456-d796-466f-8f1b-bb543e3df11d&amp;ds=D01vq%2F0efnyBT47O" target="_blank" rel="noopener">Hotel San Remo</a> (확정)</td>
         </tr>
         <tr class="florence">
           <td>피렌체</td><td>2박 (1/6~1/8 체크아웃)</td>
@@ -575,6 +582,85 @@
       <li>짐 보관 계획 (기차역 라커, 숙소 위탁, Radical Storage 등 앱 활용)</li>
       <li>호텔 세탁 서비스 또는 코인세탁방 위치 확인</li>
     </ul>
+  </div>
+
+  <div class="todo checklist">
+    <h2 style="margin-top:0;">관광지·투어 체크리스트</h2>
+    <p class="note">체크 상태는 이 브라우저에만 저장됩니다. 예약은 신청 완료 시, 관광지는 방문 후 체크하세요.</p>
+      <h3 class="ck-h">투어 신청</h3>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="0"> 1/2(토) 09:15 사그라다 파밀리아 가이드 투어 — 상품·집결 장소 미정, 예약 필요</label></li>
+        <li><label><input type="checkbox" data-ck="1"> 1/4(월) 08:00~13:00 바티칸·성 베드로 대성당 투어 — <a href="https://experiences.myrealtrip.com/products/5528182" target="_blank" rel="noopener">예약 링크</a></label></li>
+        <li><label><input type="checkbox" data-ck="2"> 1/6(수) 17:00 김정아 피렌체 야경 투어 — 집결 장소·예약 링크 미정</label></li>
+        <li><label><input type="checkbox" data-ck="3"> 1/7(목) 09:30 김정아 우피치 가이드 투어 — <a href="https://tour.yanolja.com/tna/products/50f904fc-9820-4721-aafc-75d5ec5417e4?startDate=2027-01-07&amp;endDate=2027-01-07&amp;selectedDate=2027-01-07" target="_blank" rel="noopener">예약 링크</a></label></li>
+      </ul>
+      <h3 class="ck-h">별도 예약이 필요한 입장권</h3>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="4"> 1/3(일) 콜로세움 통합권(콜로세움·포로로마노·팔라티노, €18) — 12/4경 판매 개시, 시간 지정 필수</label></li>
+        <li><label><input type="checkbox" data-ck="5"> 1/7(목) 아카데미아 미술관(다비드상) — 공식 사이트 예약</label></li>
+        <li><label><input type="checkbox" data-ck="6"> 두오모 쿠폴라(Brunelleschi Pass €30) — 날짜 미배치, 시간 지정 필수</label></li>
+        <li><label><input type="checkbox" data-ck="7"> 베르사유·루브르 — 예약 필요(1/10, 1/11)</label></li>
+      </ul>
+      <h3 class="ck-h">방문 관광지</h3>
+      <h4 class="ck-h">1/2(토) 바르셀로나</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="8"> 사그라다 파밀리아 (가이드 투어)</label></li>
+        <li><label><input type="checkbox" data-ck="9"> 고딕지구</label></li>
+        <li><label><input type="checkbox" data-ck="10"> 람블라스</label></li>
+      </ul>
+      <h4 class="ck-h">1/3(일) 로마</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="11"> 콜로세움</label></li>
+        <li><label><input type="checkbox" data-ck="12"> 포로로마노</label></li>
+        <li><label><input type="checkbox" data-ck="13"> 팔라티노 언덕</label></li>
+        <li><label><input type="checkbox" data-ck="14"> 판테온</label></li>
+        <li><label><input type="checkbox" data-ck="15"> 나보나 광장</label></li>
+      </ul>
+      <h4 class="ck-h">1/4(월) 로마</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="16"> 바티칸 (투어)</label></li>
+        <li><label><input type="checkbox" data-ck="17"> 성 베드로 대성당 (투어)</label></li>
+      </ul>
+      <h4 class="ck-h">1/5(화) 로마</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="18"> 트레비 분수</label></li>
+        <li><label><input type="checkbox" data-ck="19"> 스페인 계단</label></li>
+        <li><label><input type="checkbox" data-ck="20"> 포폴로 광장·핀초 언덕 전망</label></li>
+      </ul>
+      <h4 class="ck-h">1/6(수) 피렌체</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="21"> 산타마리아 노벨라 성당 (주현절 13:00~17:00만 개방)</label></li>
+        <li><label><input type="checkbox" data-ck="22"> 피렌체 야경 투어 (김정아, 17:00)</label></li>
+      </ul>
+      <h4 class="ck-h">1/7(목) 피렌체</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="23"> 우피치 미술관 (김정아 가이드 투어)</label></li>
+        <li><label><input type="checkbox" data-ck="24"> 아카데미아 미술관</label></li>
+        <li><label><input type="checkbox" data-ck="25"> 두오모 광장·대성당 외관</label></li>
+        <li><label><input type="checkbox" data-ck="26"> 베키오 다리</label></li>
+        <li><label><input type="checkbox" data-ck="27"> 미켈란젤로 광장 일몰</label></li>
+      </ul>
+      <h4 class="ck-h">1/8(금) 파리</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="28"> 바토무슈(센강 유람선)</label></li>
+        <li><label><input type="checkbox" data-ck="29"> 에펠탑</label></li>
+      </ul>
+      <h4 class="ck-h">1/9(토) 파리</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="30"> 개선문</label></li>
+        <li><label><input type="checkbox" data-ck="31"> 비르아켐 다리</label></li>
+        <li><label><input type="checkbox" data-ck="32"> 오르세 미술관</label></li>
+        <li><label><input type="checkbox" data-ck="33"> 오페라 가르니에</label></li>
+        <li><label><input type="checkbox" data-ck="34"> 백화점</label></li>
+      </ul>
+      <h4 class="ck-h">1/10(일) 파리</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="35"> 베르사유 궁전·정원</label></li>
+      </ul>
+      <h4 class="ck-h">1/11(월) 파리</h4>
+      <ul class="ck-list">
+        <li><label><input type="checkbox" data-ck="36"> 루브르 박물관</label></li>
+      </ul>
   </div>
 
   <div class="todo">
@@ -931,6 +1017,22 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") closeLightbox();
   });
+
+  (function () {
+    var KEY = "tripChecklist";
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+    document.querySelectorAll("input[data-ck]").forEach(function (box) {
+      var li = box.closest("li");
+      box.checked = !!saved[box.dataset.ck];
+      li.classList.toggle("done", box.checked);
+      box.addEventListener("change", function () {
+        li.classList.toggle("done", box.checked);
+        if (box.checked) saved[box.dataset.ck] = 1; else delete saved[box.dataset.ck];
+        try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      });
+    });
+  })();
 </script>
 </body>
 </html>
